@@ -4,7 +4,7 @@ lista = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', '
 
 nueva_lista = []
 
-for i in range(len(lista)):
+for i in range(len(lista)): #len = longitud de la cadena
     if((i+1) % 3 != 0):
-        nueva_lista.append(lista[i])
+        nueva_lista.append(lista[i]) #append agrega un elemento al final de la lista
 print(nueva_lista)

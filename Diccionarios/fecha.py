@@ -17,6 +17,6 @@ meses = {
     "12": "diciembre"
 }
 
-dia, mes, año = fecha.split("/")
+dia, mes, año = fecha.split("/") 
 
 print(f"{dia} de {meses[mes]} de {año}")
